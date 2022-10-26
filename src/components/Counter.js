@@ -3,13 +3,17 @@ import countapi from 'countapi-js'
 
 function Counter(props) {
     const [ count, setCount ] = useState("")
+
     // useGetInitialCount gets current value on page load from api without incrementing count
     const useGetInitialCount = () => {
         useEffect(() => {
             countapi.get('fearless.tech', '1ccb732e-b55a-4404-ad3f-0f99c02fe44e')
-            .then((result) => {
-                setCount(result.value)
-            })
+                .then((result) => {
+                    setCount(result.value)
+                })
+                .catch((error) => {
+                    console.log("useGetInitialCount error: ", error)
+                })
         }, [])
     }
     useGetInitialCount()
@@ -20,6 +24,9 @@ function Counter(props) {
             .then((result) => {
                 setCount(result.value)
             })
+            .catch((error) => {
+                console.log("incrementCount error: ", error)
+            })
     }
     return (
         <div className="counter-container">
@@ -28,6 +35,5 @@ function Counter(props) {
         </div>
     )
 }
-console.log("test")
 
 export default Counter
