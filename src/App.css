@@ -17,10 +17,11 @@ h1,p,li,a{
   text-transform: uppercase;
   margin-top: 100px;
   padding: 0 50px;
+  font-family: Quicksand, Arial, sans-serif;
 }
-p.subtitle{
-  font-size: 20px;
-  letter-spacing: 1px;
+p.subtitle {
+  font-size: 22px;
+  letter-spacing: 3px;
   position: relative;
   top: -20px;
   padding: 0 50px;
