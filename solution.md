@@ -5,7 +5,7 @@
 
 To lauch the application, in the root of the project, run 
 
-##`npm start`
+## `npm start`
 
 View the application at http://localhost:3000/
 
