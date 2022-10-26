@@ -1,0 +1,29 @@
+.counter-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 600px;
+    max-width: 90%;
+    height: 300px;
+    background: #f9f7f8;
+    margin: 50px auto;
+    padding: 46px 10px 0px;
+    border-radius: 10px;
+    border: 1px solid #f1eaea;
+}
+button{
+    font-size: 30px;
+    padding: 20px 25px;
+    background: var(--primary-light);
+    box-shadow: 5px 5px var(--secondary-color);
+    border: none;
+    color: #fff;
+}
+button:hover{
+    background:var(--primary-color); 
+}
+p.count{
+    margin-top: 40px;
+    font-size: 40px;
+}

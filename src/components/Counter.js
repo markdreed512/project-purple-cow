@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import countapi from 'countapi-js'
+import './styles/Counter.css'
 
 function Counter(props) {
     const [ count, setCount ] = useState("")
@@ -31,7 +32,7 @@ function Counter(props) {
     return (
         <div className="counter-container">
             <button onClick={incrementCount}>{props.buttonText}</button>
-            <div className="count">{count}</div>
+            <p className="count">{count}</p>
         </div>
     )
 }

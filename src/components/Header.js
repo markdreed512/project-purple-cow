@@ -4,7 +4,7 @@ function Header() {
   return (
     <header >
         <div className="logo">
-            <p>PPC</p>
+            <a href="https://fearless.tech/">PPC</a>
         </div>
         <nav className="primary-nav">
             <ul>

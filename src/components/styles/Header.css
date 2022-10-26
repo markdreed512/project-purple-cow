@@ -1,13 +1,14 @@
 header{
     display: flex;
+    align-items: center;
     justify-content: space-between;
-    background-color: #5c3977;
+    background-color: var(--primary-color);
     color: #fff;
-    padding: 0 20px
+    padding: 0 50px;
 }
 header ul{
     display:flex;
-    gap: 10px;
+    gap: 33px;
 }
 header li{
     list-style-type: none;

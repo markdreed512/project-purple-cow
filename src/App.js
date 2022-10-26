@@ -6,7 +6,11 @@ function App() {
   return (
     <div className="App">
       <Header />
-     <Counter buttonText="Click Me"/>
+      <div className="main-content">
+        <h1 id="title">Project Purple Cow</h1>
+        <p className="subtitle">Stand out from the crowd. Stand up and be counted.</p>
+        <Counter buttonText="Count Me In!!"/>
+      </div>
     </div>
   );
 }
