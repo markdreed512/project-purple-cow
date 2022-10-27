@@ -8,7 +8,7 @@ function App() {
       <Header />
       <div className="main-content">
         <h1 id="title">Project Purple Cow</h1>
-        <p className="subtitle">Stand out from the crowd. Stand up and be counted.</p>
+        <p className="subtitle">Stand apart from the herd. Stand up and be counted.</p>
         <Counter buttonText="Count Me In!!"/>
       </div>
     </div>
